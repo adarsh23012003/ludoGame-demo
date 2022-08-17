@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludo game</title>
+  </head>
+  <body>
+    <img style="display: none" src="ludo.png" alt="board photo" id="boardImg" />
+    <img
+      style="display: none"
+      src="green.png"
+      alt="board photo"
+      id="greenPawn"
+    />
+    <img style="display: none" src="blue.png" alt="board photo" id="bluePawn" />
+    <img style="display: none" src="red.png" alt="board photo" id="redPawn" />
+    <img
+      style="display: none"
+      src="yellow.png"
+      alt="board photo"
+      id="yellowPawn"
+    />
+    <button id="blueBtn" style="display: none">Blue Dice</button>
+    <button id="redBtn" style="display: none">Red Dice</button>
+    <button id="greenBtn" style="display: none">Green Dice</button>
+    <button id="yellowBtn" style="display: none">Yellow Dice</button>
+    <h2 id="dice"></h2>
+
+    <canvas id="canvas" class="center"> </canvas>
+  </body>
+  <script src="./ludo.js"></script>
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  </style>
+</html>
