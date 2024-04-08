@@ -5,26 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ludo game</title>
-    <style>
-      .main-container {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-      }
-      button {
-        padding: 10px 15px;
-        border-radius: 5px;
-        border: none;
-        background-color: gray;
-        font-weight: bold;
-        cursor: pointer;
-        color: white;
-      }
-      #dice {
-        color: red;
-        font-size: xx-large;
-      }
-    </style>
   </head>
   <body>
     <img style="display: none" src="ludo.png" alt="board photo" id="boardImg" />
@@ -42,15 +22,13 @@
       alt="board photo"
       id="yellowPawn"
     />
-    <div class="main-container">
-      <button id="blueBtn" style="display: none">Blue Dice</button>
-      <button id="redBtn" style="display: none">Red Dice</button>
-      <button id="greenBtn" style="display: none">Green Dice</button>
-      <button id="yellowBtn" style="display: none">Yellow Dice</button>
-      <h2 id="dice"></h2>
+    <button id="blueBtn" style="display: none">Blue Dice</button>
+    <button id="redBtn" style="display: none">Red Dice</button>
+    <button id="greenBtn" style="display: none">Green Dice</button>
+    <button id="yellowBtn" style="display: none">Yellow Dice</button>
+    <h2 id="dice"></h2>
 
-      <canvas id="canvas" class="center"> </canvas>
-    </div>
+    <canvas id="canvas" class="center"> </canvas>
   </body>
   <script src="./ludo.js"></script>
   <style>
